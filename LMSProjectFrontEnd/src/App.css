@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.bg-image {
+  background-image: url("./assets/login/wepik-2022319-214333@2x.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: fixed;
+}
+.bg-div {
+  background-image: url("./assets/login/Image.png");
+  /* background-position: 20% 18%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-fluid {
+  height: 527px !important;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+/* nav bar */
+.ant-layout-header {
+  color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+/* search bar */
+.ant-input-affix-wrapper,
+.ant-input {
+  /* background-color: #f4f5f8 !important;  */
+}
+
+/* modal style */
+.css-1acyv19 {
+  border-radius: 12px;
+}
+
+/* Multipal select component */
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group-title {
+  color: #666;
+  font-weight: bold;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group {
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item {
+  padding-left: 16px;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item.show-all {
+  text-align: center;
+  cursor: default;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu {
+  max-height: 300px;
+}
+
+/* multipal selector */
+.ant-select-item-option-content {
+  z-index: 10560 !important;
+}
+.css-1fvltii {
+  border-radius: 12px;
+}
+
+/* apex chart */
+.apexcharts-toolbar {
+  position: static !important;
+  display: none !important;
+}
+
+/* text area component */
+textarea {
+  width: 100%;
+}
+
+/* steppers */
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #00b530 !important;
+}
+
+.css-qivjh0-MuiStepLabel-label.Mui-active {
+  font-weight: 600px;
+  font-size: 35px;
+  font-family: "Open Sans, Semibold";
+  color: #086288 !important;
+  border-bottom: 3px solid #faa81d;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #00b530 !important;
+}
+
+.css-qivjh0-MuiStepLabel-label.Mui-completed {
+  color: #086288 !important;
+  font-weight: 600px;
+  font-size: 15px;
+}
+
+/* hsdhkjfdjgfdhjg */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.eyeBtn {
+  position: absolute;
+  margin-top: 1vh;
+  margin-right: 1vw;
+}
+
+.avatarBorder {
+  border-left: 1px solid rgb(89, 88, 88);
+}
+
+@media screen and (max-width: 800px) {
+  .imgVisible {
+    display: none;
+  }
+  .textBig {
+    display: block;
+  }
+  .textSmall {
+    display: none;
+  }
+  .imginVisible {
+    display: block;
+  }
+}
+
+.row1 {
+  margin: 0;
+}
+
+.underBor {
+  border-bottom: 1px solid rgb(196, 191, 191);
+}
+
+@media screen and (min-width: 700px) {
+  .modalStyle {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .modalStyle {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 2500px) and (min-width: 800px) {
+  .sideView {
+    width: 6%;
+  }
+  .pathWidth {
+    width: 94%;
+  }
+  .imginVisible {
+    display: none;
+  }
+  .textBig {
+    display: none;
+  }
+  .textSmall {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sideView {
+    width: 10%;
+  }
+  .pathWidth {
+    width: 90%;
+  }
+}
+
+/* @media screen and (max-width:500px) { */
+/* .sidePview{
+    font-size: 2.5vh;
+    padding-left: 3px;
+    color: #086288;
+  } */
+/* } */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media screen and (max-width: 600px) {
+  .searchHide {
+    display: none;
+  }
+}
+
+.bgImg {
+  background-image: url("./assets/login/loginHome/wepik-2022319-214333@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loginLeft {
+  font-size: 50px;
+  color: white;
+  font-weight: lighter;
+  position: relative;
+}
+
+.bgReal {
+  background-image: url("./assets/login/loginHome/real_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 350px;
+}
+
+.btn {
+  width: 9em;
+}
+
+/* .btnClass{
+  background-color: #FFAA17;
+} */
+
+#logFoot {
+  margin-top: 11vh;
+}
+
+.logInp {
+  border-radius: 5px;
+  position: relative;
+}
+
+.copyRight {
+  font-weight: lighter;
+  font-size: x-small;
+  padding: 0px;
+  padding-bottom: 15px;
+  /* text-align: center; */
+}
+
+/* .eyeBtn {
+  position: absolute;
+} */
+
+.chnagePass {
+  font-weight: lighter;
+  font-size: small;
+  text-align: center;
+}
+
+.footPad {
+  padding: 0;
+}
+
+.labMar {
+  margin-left: 0px;
+}
+
+#loginTitle {
+  color: #ffaa17;
+}
+
+.formBg {
+  background-color: #000000a2;
+}
+
+.logLable {
+  font-size: smaller;
+  /* position: relative; */
+}
+
+p {
+  margin: 0px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

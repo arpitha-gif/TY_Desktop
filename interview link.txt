@@ -1,0 +1,13 @@
+batch 1
+-------
+https://docs.google.com/forms/d/e/1FAIpQLSeU1zEqxVeIfvCJWWQBJbnokhVtBPvuJWSRFeVxjT3oCWGd2g/viewform
+
+batch 2
+-------
+https://docs.google.com/forms/d/e/1FAIpQLSeKMuAtV1ZrIpR_kNUpv6eCtfbQOE5IKu_CeF2PSUPatnTaFQ/viewform
+
+batch B2B
+----------
+https://docs.google.com/forms/u/0/d/e/1FAIpQLScibgYg4j7OXLaabXzQ0j5OKTyH_OiZ9AY1_PD7Mv7VTb_yUg/formResponse
+
+npx create-react-app@latest LMS --use-npm

@@ -1,0 +1,30 @@
+.sidebar {
+  top: 0;
+  left: 0;
+  height: calc(100vh - 88px);
+  width: 70px;
+  background-color: #fff;
+  border: 1px solid #e5ecfc;
+  //   overflow-y: scroll;
+  &__menu {
+    position: relative;
+    &__item {
+      width: 100%;
+      align-items: center;
+      border-radius: 10px;
+      margin: 20px auto auto auto;
+      padding: 0rem 0.2rem 0.1rem 0.1rem;
+      font-size: 12px;
+      font-weight: 200;
+      color: #086288;
+      text-align: center;
+      //   border-left: 3px solid transparent;
+      &.activebg {
+        background-color: #086288;
+      }
+      &.activeborder {
+        color: #ffffff !important;
+      }
+    }
+  }
+}

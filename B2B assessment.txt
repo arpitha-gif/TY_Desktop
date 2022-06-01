@@ -1,0 +1,14 @@
+Chethan
+-----------
+1.not cleared with bom methods
+2. not cleared with html tags
+3. not cleared with filter methad
+4. not answering anything related to project
+5. not cleared with functions
+6. not cleared with vdom
+7. he explains static amd dynamin webpage but unable to justify it
+8. unable to write a code for functional hoisting
+9. unable to write calcculation of bmi program
+10. unable to explain even and event listener and unable to write a code for it
+11. unable to explain errorboundary
+12. unable to explain diff b/w router and browser router

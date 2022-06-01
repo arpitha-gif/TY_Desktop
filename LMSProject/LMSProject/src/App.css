@@ -1,0 +1,97 @@
+.bg-image {
+  background-image: url("./assets/login/wepik-2022319-214333@2x.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: fixed;
+}
+.bg-div {
+  background-image: url("./assets/login/Image.png");
+  /* background-position: 20% 18%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-fluid {
+  height: 527px !important;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+/* nav bar */
+.ant-layout-header {
+  color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+/* search bar */
+.ant-input-affix-wrapper,
+.ant-input {
+  background-color: #f4f5f8 !important;
+}
+
+/* modal style */
+.css-1acyv19{
+  border-radius: 12px;
+}
+
+/* Multipal select component */
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group-title {
+  color: #666;
+  font-weight: bold;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group {
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item {
+  padding-left: 16px;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item.show-all {
+  text-align: center;
+  cursor: default;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu {
+  max-height: 300px;
+}
+
+
+/* multipal selector */
+.ant-select-item-option-content{
+    z-index: 10560 !important;
+ 
+}
+.css-1fvltii {
+  border-radius: 12px;
+}
+
+/* apex chart */
+.apexcharts-toolbar {
+  position: static !important;
+  display: none !important;
+}
+
+
+/* text area component */
+textarea{
+  width: 100%;
+}
